@@ -1,0 +1,227 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    color: #222;
+    background: #fff;
+    margin: 0;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+/* ========== HEADER / NAV ========== */
+header {
+    background: #000;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+}
+
+    header .title {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+        header .title .demo {
+            color: whitesmoke;
+            font-weight: 700;
+            font-size: 22px;
+            margin-right: 8px;
+        }
+
+        header .title a {
+            color:whitesmoke;
+            padding: 8px 10px;
+            font-weight: 600;
+            transition: color 0.18s, transform 0.12s;
+        }
+
+            header .title a:hover {
+                color: white;
+                transform: translateY(-1px);
+            }
+
+
+/* ========== CATEGORY (sidebar) ========== */
+#category {
+    background: #f7f9fb;
+    border: 1px solid #e6eef6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+    #category h3 {
+        margin: 0;
+        padding: 10px 14px;
+        background: #3b82f6; /* cornflower/blue */
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+.category-list {
+    list-style: none;
+    margin: 0;
+    padding: 6px 0;
+}
+
+.category-item {
+    padding: 10px 14px;
+    border-bottom: 1px solid #eef6fb;
+    display: block;
+}
+
+    .category-item a {
+        color: #111827;
+        font-weight: 600;
+        display: block;
+    }
+
+        .category-item a:hover {
+            color: #1d4ed8;
+            background: rgba(59,130,246,0.06);
+            border-radius: 4px;
+        }
+
+    /* small hr-like separation */
+    .category-item hr {
+        border: none;
+        border-top: 1px solid #f0f5fb;
+        margin: 8px 0 0;
+    }
+
+/* sidebar banner */
+.category-banner {
+    padding: 12px;
+    text-align: center;
+    background: #fff;
+}
+
+    .category-banner img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+/* ========== MAIN CONTENT / PRODUCTS ========== */
+.col-sm-8 h3.section-title {
+    margin: 0 0 12px 0;
+    padding: 10px 12px;
+    background: #3b82f6 !important;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+/* each card - adjust percent to get 3-4 per row */
+.product-item {
+    flex: 0 0 calc(33.333% - 10.666px);
+    background: #fff;
+    border: 1px solid #e6eaf0;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: center;
+    transition: transform .18s, box-shadow .18s;
+}
+
+    .product-item img {
+        max-width: 100%;
+        height: 160px;
+        object-fit: cover;
+        margin-bottom: 8px;
+        border-radius: 4px;
+    }
+
+    .product-item p {
+        margin: 6px 0 0;
+        font-weight: 700;
+        font-size: 14px;
+        color: #111827;
+    }
+
+    .product-item:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 20px rgba(17,24,39,0.08);
+    }
+
+    /* Hot product special */
+    .product-item.hot {
+        border: 2px solid #ef4444; /* red */
+    }
+
+/* ========== FOOTER ========== */
+footer {
+    margin-top: 28px;
+    background: #000;
+    color: #fff;
+    padding: 26px 12px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+    .footer-column h4 {
+        margin: 0 0 8px;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .footer-column p {
+        color: #d1d5db;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 992px) {
+    .product-item {
+        flex: 0 0 calc(50% - 10px);
+    }
+
+    .col-sm-4 {
+        flex-basis: 32%;
+        max-width: 32%;
+    }
+}
+
+@media (max-width: 720px) {
+    main.row {
+        flex-direction: column;
+    }
+
+    .col-sm-4, .col-sm-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .product-item {
+        flex: 0 0 100%;
+    }
+
+    .title {
+        gap: 8px;
+    }
+}

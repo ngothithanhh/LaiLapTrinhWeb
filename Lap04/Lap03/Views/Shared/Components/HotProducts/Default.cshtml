@@ -1,0 +1,17 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Lap03.Models.Products>
+<h3>Sản phẩm hot nhất</h3>
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-3">
+            <img src="@product.Image"></img>
+            <p>@product.Title</p>
+
+        </div>
+
+    }
+</div>
