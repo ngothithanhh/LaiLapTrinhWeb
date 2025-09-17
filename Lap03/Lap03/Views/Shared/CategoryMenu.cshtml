@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Lap03.Models.Categories>
+
+<div id="category">
+    <h3>Danh mục sản phẩm</h3>
+    <ul class="category-list">
+        @foreach (var category in Model)
+        {
+            <li class="category-item">
+                <a href="#">@category.Title</a>
+            </li>
+        }
+    </ul>
+    <div class="category-banner">
+        <img src="~/images/marketing/images.jpg" alt="Banner quảng cáo" />
+    </div>
+</div>
