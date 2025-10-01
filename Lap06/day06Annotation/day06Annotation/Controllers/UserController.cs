@@ -20,12 +20,21 @@ namespace day06Annotation.Controllers
             string password = user.Password;
             if(password.Length < 7)
             {
-                ViewBag.Message = "Ngu lon nhap sai do dai mat khau roi, ddmm";
+                ViewBag.Message = "Nhap sai do dai mat khau roi :>>";
                 return View();
             }
             else
             {
                 return Content("Ban da nhap mk thanh cong!!");
+            }
+
+            if (ModelState.IsValid)
+            {
+                return Content("Ban da dang ky thanh cong");
+            }
+            else
+            {
+                return View();
             }
         }
 
@@ -33,5 +42,7 @@ namespace day06Annotation.Controllers
         {
             return View();
         }
+
+        
     }
 }
