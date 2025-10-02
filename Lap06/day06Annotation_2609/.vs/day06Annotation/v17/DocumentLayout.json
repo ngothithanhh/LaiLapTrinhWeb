@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\lap06\\day06annotation\\day06annotation\\views\\user\\usermanual.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|solutionrelative:day06annotation\\views\\user\\usermanual.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\lap06\\day06annotation\\day06annotation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|solutionrelative:day06annotation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\lap06\\day06annotation\\day06annotation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|solutionrelative:day06annotation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\lap06\\day06annotation\\day06annotation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7CC81FA-855E-4971-9F45-9620E1DA5AA5}|day06Annotation\\day06Annotation.csproj|solutionrelative:day06annotation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Program.cs",
+              "RelativeDocumentMoniker": "day06Annotation\\Program.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Program.cs",
+              "RelativeToolTip": "day06Annotation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:20:26.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManual.cshtml",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Views\\User\\UserManual.cshtml",
+              "RelativeDocumentMoniker": "day06Annotation\\Views\\User\\UserManual.cshtml",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Views\\User\\UserManual.cshtml",
+              "RelativeToolTip": "day06Annotation\\Views\\User\\UserManual.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T03:17:25.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "day06Annotation\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "day06Annotation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:15:15.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "day06Annotation\\Models\\User.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\Lap06\\day06Annotation\\day06Annotation\\Models\\User.cs",
+              "RelativeToolTip": "day06Annotation\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:13:00.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
