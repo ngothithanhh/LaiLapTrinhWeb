@@ -1,0 +1,57 @@
+﻿@model NTTDay09CodeFirst.Models.ntt_SanPham
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ntt_SanPham</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttMaSP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttMaSP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttTenSP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttTenSP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttHinhAnh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttHinhAnh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttSoLuong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttSoLuong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttDonGia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttDonGia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttLoaiSPId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttLoaiSPId)
+        </dd>
+    </dl>
+    
+    <form asp-action="nttDelete">
+        <input type="hidden" asp-for="nttId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="nttIndex">Quay lại</a>
+    </form>
+</div>

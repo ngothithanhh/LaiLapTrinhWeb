@@ -1,0 +1,51 @@
+﻿@model NTTDay09CodeFirst.Models.ntt_LoaiSanPham
+
+@{
+    ViewData["Title"] = "Thêm mới loại sản phẩm";
+}
+
+<h1>Thêm mới loại sản phẩm</h1>
+
+<h4>ntt_LoaiSanPham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="nttCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nttMaLoai" class="control-label"></label>
+                <input asp-for="nttMaLoai" class="form-control" placeholder="Nhập mã loại sản phẩm..." />
+                <span asp-validation-for="nttMaLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttTenLoai" class="control-label"></label>
+                <input asp-for="nttTenLoai" class="form-control" placeholder="Nhập tên loại sản phẩm..." />
+                <span asp-validation-for="nttTenLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Trạng thái</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="nttTrangThai" value="true" checked="@(Model?.nttTrangThai != false)" id="trangthai-hoatdong" />
+                    <label class="form-check-label text-success fw-semibold" for="trangthai-hoatdong">
+                        <i class="fa-solid fa-circle-check me-1"></i> Hoạt động
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="nttTrangThai" value="false" checked="@(Model?.nttTrangThai == false)" id="trangthai-ngung" />
+                    <label class="form-check-label text-danger fw-semibold" for="trangthai-ngung">
+                        <i class="fa-solid fa-circle-xmark me-1"></i> Ngừng hoạt động
+                    </label>
+                </div>
+                <span asp-validation-for="nttTrangThai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a class="btn btn-secondary" asp-action="nttIndex">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

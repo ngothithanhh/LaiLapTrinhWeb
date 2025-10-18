@@ -1,0 +1,47 @@
+﻿@model IEnumerable<NTTDay09CodeFirst.Models.ntt_LoaiSanPham>
+
+@{
+    ViewData["Title"] = "Danh sách loại sản phẩm";
+}
+
+<h1>Danh sách loại sản phẩm</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="nttCreate">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nttMaLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttTenLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttTrangThai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttMaLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttTenLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttTrangThai)
+            </td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="nttEdit" asp-route-id="@item.nttId">Edit</a> |
+                <a class="btn btn-sm btn-success" asp-action="nttDetails" asp-route-id="@item.nttId">Details</a> |
+                <a class="btn btn-sm btn-danger" asp-action="nttDelete" asp-route-id="@item.nttId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

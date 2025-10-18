@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NTTDay09CodeFirst
 build_property.RootNamespace = NTTDay09CodeFirst
@@ -26,6 +34,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_LoaiSanPham/nttCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X0xvYWlTYW5QaGFtXG50dENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_LoaiSanPham/nttDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X0xvYWlTYW5QaGFtXG50dERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_LoaiSanPham/nttDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X0xvYWlTYW5QaGFtXG50dERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_LoaiSanPham/nttEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X0xvYWlTYW5QaGFtXG50dEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_LoaiSanPham/nttIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X0xvYWlTYW5QaGFtXG50dEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_SanPham/nttCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X1NhblBoYW1cbnR0Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_SanPham/nttDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X1NhblBoYW1cbnR0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_SanPham/nttDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X1NhblBoYW1cbnR0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_SanPham/nttEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X1NhblBoYW1cbnR0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/ntt_SanPham/nttIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbnR0X1NhblBoYW1cbnR0SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TaiLieu/Nam3/HocKy1/LapTrinhWebb/17_10/NTTDay09CodeFirst/NTTDay09CodeFirst/Views/Shared/Error.cshtml]

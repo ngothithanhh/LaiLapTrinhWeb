@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NTTDay09CodeFirst.Models.ntt_SanPham>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<h1>Danh sách sản phẩm</h1>
+
+<p>
+    <a asp-action="nttCreate">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nttMaSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttTenSP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttHinhAnh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttSoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttDonGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nttLoaiSPId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttMaSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttTenSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttHinhAnh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttSoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttDonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nttLoaiSPId)
+            </td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="nttEdit" asp-route-id="@item.nttId">Edit</a> |
+                <a class="btn btn-sm btn-success" asp-action="nttDetails" asp-route-id="@item.nttId">Details</a> |
+                <a class="btn btn-sm btn-danger" asp-action="nttDelete" asp-route-id="@item.nttId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

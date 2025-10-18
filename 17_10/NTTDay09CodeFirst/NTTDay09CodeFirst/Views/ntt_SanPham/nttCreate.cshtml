@@ -1,0 +1,59 @@
+﻿@model NTTDay09CodeFirst.Models.ntt_SanPham
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Thêm mới</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="nttCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nttMaSP" class="control-label"></label>
+                <input asp-for="nttMaSP" class="form-control" />
+                <span asp-validation-for="nttMaSP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttTenSP" class="control-label"></label>
+                <input asp-for="nttTenSP" class="form-control" />
+                <span asp-validation-for="nttTenSP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttHinhAnh" class="control-label"></label>
+                <input asp-for="nttHinhAnh" class="form-control" />
+                <span asp-validation-for="nttHinhAnh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttSoLuong" class="control-label"></label>
+                <input asp-for="nttSoLuong" class="form-control" />
+                <span asp-validation-for="nttSoLuong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttDonGia" class="control-label"></label>
+                <input asp-for="nttDonGia" class="form-control" />
+                <span asp-validation-for="nttDonGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttLoaiSPId" class="control-label"></label>
+                <input asp-for="nttLoaiSPId" class="form-control" />
+                <span asp-validation-for="nttLoaiSPId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <div>
+                    <a asp-action="nttIndex">Back to List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

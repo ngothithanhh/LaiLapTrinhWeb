@@ -1,0 +1,45 @@
+﻿@model NTTDay09CodeFirst.Models.ntt_LoaiSanPham
+
+@{
+    ViewData["Title"] = "Chỉnh sửa";
+}
+
+<h1>Chỉnh sửa</h1>
+
+@* <h4>ntt_LoaiSanPham</h4> *@
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="nttEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="nttId" />
+            <div class="form-group">
+                <label asp-for="nttMaLoai" class="control-label"></label>
+                <input asp-for="nttMaLoai" class="form-control" />
+                <span asp-validation-for="nttMaLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nttTenLoai" class="control-label"></label>
+                <input asp-for="nttTenLoai" class="form-control" />
+                <span asp-validation-for="nttTenLoai" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="nttTrangThai" /> @Html.DisplayNameFor(model => model.nttTrangThai)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <div>
+                    <a asp-action="nttIndex">Quay lại</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

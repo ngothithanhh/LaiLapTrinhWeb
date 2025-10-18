@@ -19,6 +19,6 @@ namespace NTTDay09CodeFirst.Models
         [Display(Name = "Trạng thái")]
         public bool nttTrangThai { get; set; }
 
-        public ICollection<ntt_SanPham> nttSanPhams { get; set; }
+        public ICollection<ntt_SanPham>? nttSanPhams { get; set; }
     }
 }

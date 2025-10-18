@@ -1,0 +1,39 @@
+﻿@model NTTDay09CodeFirst.Models.ntt_LoaiSanPham
+
+@{
+    ViewData["Title"] = "Xóa";
+}
+
+<h1>Xóa</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ntt_LoaiSanPham</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttMaLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttMaLoai)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttTenLoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttTenLoai)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nttTrangThai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nttTrangThai)
+        </dd>
+    </dl>
+    
+    <form asp-action="nttDelete">
+        <input type="hidden" asp-for="nttId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a class="btn btn-primary" asp-action="nttIndex">Quay lại</a>
+    </form>
+</div>

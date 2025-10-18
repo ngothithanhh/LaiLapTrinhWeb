@@ -17,15 +17,15 @@ namespace NTTDay09CodeFirst.Models
         public string nttTenSP { get; set; }
         [Display(Name = "Hình ảnh")]
         [StringLength(200)]
-        public string nttHinhAnh { get; set; }
+        public string? nttHinhAnh { get; set; }
         [Display(Name = "Số lượng")]
         public int nttSoLuong { get; set; }
         [Display(Name = "Đơn giá")]
 
         public decimal nttDonGia { get; set; }
-        public long nttLoaiSPId { get; set; }
+        public string nttLoaiSPId { get; set; }
 
-        public ntt_LoaiSanPham nttLoai_SP { get; set; }
+        public ntt_LoaiSanPham? nttLoai_SP { get; set; }
 
     }
 }
