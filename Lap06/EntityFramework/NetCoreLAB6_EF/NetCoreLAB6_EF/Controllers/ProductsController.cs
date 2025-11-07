@@ -57,30 +57,51 @@ namespace NetCoreLAB6_EF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Image,Price,SalePrice,Status,Description,CategoryId,CreatedDate")] Product product)
+        public async Task<IActionResult> Create(Product product)
         {
-            if (ModelState.IsValid)
+            var files = HttpContext.Request.Form.Files;
+
+            if (files.Count > 0 && files[0]?.Length > 0)
             {
-                var files = HttpContext.Request.Form.Files;
-                if(files.Count()>0 && files[0].Length > 0)
+                try
                 {
                     var file = files[0];
-                    var FileName = file.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Product", FileName);
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    var fileName = Path.GetFileName(file.FileName).Replace(" ", "_").ToLower();
+                    var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Product");
+                    var filePath = Path.Combine(folderPath, fileName);
+
+                    if (!Directory.Exists(folderPath))
+                        Directory.CreateDirectory(folderPath);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        file.CopyTo(stream);
-                        product.Image = FileName; //gắn tên ảnh cho thuộc tính Image
+                        await file.CopyToAsync(stream);
                     }
- 
+
+                    product.Image = fileName;
                 }
+                catch
+                {
+                    ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+                    return View(product);
+                }
+            }
+
+            if (!string.IsNullOrEmpty(product.Image))
+                ModelState.Remove("Image");
+
+            if (ModelState.IsValid)
+            {
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             return View(product);
         }
+
+
 
         // GET: Products/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -104,36 +125,43 @@ namespace NetCoreLAB6_EF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Image,Price,SalePrice,Status,Description,CategoryId,CreatedDate")] Product product)
+        public async Task<IActionResult> Edit(int id, Product product, IFormFile? NewImage)
         {
             if (id != product.Id)
-            {
                 return NotFound();
+
+            var existingProduct = await _context.Products.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+            if (existingProduct == null)
+                return NotFound();
+
+            string imageFileName = existingProduct.Image; // mặc định giữ ảnh cũ
+
+            if (NewImage != null && NewImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(NewImage.FileName).Replace(" ", "_").ToLower();
+                var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Product");
+                var filePath = Path.Combine(folderPath, fileName);
+
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await NewImage.CopyToAsync(stream);
+                }
+
+                // Gán ảnh mới
+                imageFileName = fileName;
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductExists(product.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
-            return View(product);
+            // Cập nhật lại thông tin
+            product.Image = imageFileName;
+            _context.Update(product);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
+
 
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(int? id)

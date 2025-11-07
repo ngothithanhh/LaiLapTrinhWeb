@@ -1,0 +1,8 @@
+﻿/SocialApi
+ ┣ /Controllers
+ ┣ /Models          → Chứa các class dữ liệu (User, Profile,...)
+ ┣ /DTOs            → (Sau này dùng để nhận/gửi dữ liệu từ client)
+ ┣ /Services        → Xử lý logic (UserService, AuthService,...)
+ ┣ /Repositories    → Làm việc với DB (UserRepository...)
+ ┣ /Data            → DbContext đặt ở đây
+ ┗ Program.cs / Startup.cs

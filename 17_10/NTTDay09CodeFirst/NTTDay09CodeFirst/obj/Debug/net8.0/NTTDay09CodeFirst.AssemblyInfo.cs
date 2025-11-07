@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NTTDay09CodeFirst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd8fc48114897588e7455464e6fc0002f4a76702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+679e79ccaca56cc35a1bd29446e7cefcf4b79784")]
 [assembly: System.Reflection.AssemblyProductAttribute("NTTDay09CodeFirst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NTTDay09CodeFirst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

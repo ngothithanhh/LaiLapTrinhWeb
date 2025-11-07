@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap1_TaoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DBBF4FC-22B0-456D-82CE-C98DE7604A90}|BaiTap1_TaoAPI\\BaiTap1_TaoAPI.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap1_taoapi\\baitap1_taoapi\\controllers\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DBBF4FC-22B0-456D-82CE-C98DE7604A90}|BaiTap1_TaoAPI\\BaiTap1_TaoAPI.csproj|solutionrelative:baitap1_taoapi\\controllers\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SystemController.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap1_TaoAPI\\BaiTap1_TaoAPI\\Controllers\\SystemController.cs",
+              "RelativeDocumentMoniker": "BaiTap1_TaoAPI\\Controllers\\SystemController.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap1_TaoAPI\\BaiTap1_TaoAPI\\Controllers\\SystemController.cs",
+              "RelativeToolTip": "BaiTap1_TaoAPI\\Controllers\\SystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T16:42:17.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

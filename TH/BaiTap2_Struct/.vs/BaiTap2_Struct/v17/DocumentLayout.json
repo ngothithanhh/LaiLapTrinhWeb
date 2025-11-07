@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\baitap2_struct\\baitap2_struct\\struct.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F03EEAF5-3F87-4A84-8C31-06BE1325269F}|BaiTap2_Struct\\BaiTap2_Struct.csproj|solutionrelative:baitap2_struct\\struct.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BaiTap2_Struct\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:12:42.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\appsettings.json",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\appsettings.json",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\appsettings.json",
+              "RelativeToolTip": "BaiTap2_Struct\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-13T17:04:34.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Program.cs",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\Program.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Program.cs",
+              "RelativeToolTip": "BaiTap2_Struct\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:02:39.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BaiTap2_Struct\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:01:16.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\Models\\User.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\Models\\User.cs",
+              "RelativeToolTip": "BaiTap2_Struct\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T16:57:30.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "struct.txt",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\struct.txt",
+              "RelativeDocumentMoniker": "BaiTap2_Struct\\struct.txt",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\BaiTap2_Struct\\BaiTap2_Struct\\struct.txt",
+              "RelativeToolTip": "BaiTap2_Struct\\struct.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-13T16:55:31.545Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

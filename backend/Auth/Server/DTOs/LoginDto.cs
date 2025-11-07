@@ -1,0 +1,22 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Server.DTOs
+{
+    public class LoginDto
+    {
+        public string? Email { get; set; }
+
+        [RegularExpression(@"^\+?\d{10,15}$", ErrorMessage = "Invalid phone number format")]
+        public string? PhoneNumber { get; set; }
+
+        public string PasswordHash{ get; set; }
+
+        public void Validate()
+        {
+            if(string.IsNullOrEmpty(Email) && string.IsNullOrEmpty(PhoneNumber))
+            {
+                throw new ArgumentException("Either Email or PhoneNumber must be provided.");
+            }
+        }
+    }
+}

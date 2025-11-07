@@ -16,3 +16,10 @@ obj/
 # Ignore hệ thống
 .DS_Store
 Thumbs.db
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.vscode/

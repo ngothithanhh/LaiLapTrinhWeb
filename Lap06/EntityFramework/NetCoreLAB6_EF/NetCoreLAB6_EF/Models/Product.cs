@@ -20,11 +20,11 @@ namespace NetCoreLAB6_EF.Models
         public byte Status { get; set; }
         [StringLength(1000, ErrorMessage = "Nội dung mô tả giới hạn 1000 ký tự")]
         [Column(TypeName = "ntext")]
-        public string Description { get; set; }
+        public string ? Description { get; set; }
         [Required(ErrorMessage="Danh mục sản phẩm không được để trống")]
         public int CategoryId { get; set; }
         public DateTime CreatedDate { get; set; }
         //Khóa ngoại tới bảng Category
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
     }
 }

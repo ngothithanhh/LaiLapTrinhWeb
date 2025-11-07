@@ -12,5 +12,6 @@ namespace NetCoreLAB6_EF.Entities
         //Khai báo các DbSet tương ứng với các bảng trong CSDL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<NetCoreLAB6_EF.Models.Banner> Banner { get; set; } = default!;
     }
 }

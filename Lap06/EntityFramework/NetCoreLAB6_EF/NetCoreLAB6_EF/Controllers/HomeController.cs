@@ -1,16 +1,21 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using NetCoreLAB6_EF.Entities;
 using NetCoreLAB6_EF.Models;
+using System.Diagnostics;
 
 namespace NetCoreLAB6_EF.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly AppDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, AppDbContext context)
         {
             _logger = logger;
+            _context = context;
+
         }
 
         public IActionResult Index()
@@ -29,38 +34,14 @@ namespace NetCoreLAB6_EF.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Product()
+        public async Task<IActionResult> Product()
         {
-            var product = new Product();
-            //{
-            //    Id = 1,
-            //    Name = "Product Name 1",
-            //    Description = "Túi xách",
-            //    Image = "/images/products/product1.jpg"
-            //};
-            //new Product
-            //{
-            //    Id = 2,
-            //    Name = "Product Name 2",
-            //    Description = "Túi xách",
-            //    Image = "/images/products/product2.jpg"
-            //};
-            //new Product
-            //{
-            //    Id = 3,
-            //    Name = "Product Name 3",
-            //    Description = "Túi xách",
-            //    Image = "/images/products/product3.jpg"
-            //};
-            //new Product
-            //{
-            //    Id = 4,
-            //    Name = "Product Name 4",
-            //    Description = "Túi xách",
-            //    Image = "/images/products/product4.jpg"
-            //};
-            ViewBag.Product = product;
-            return View();
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .ToListAsync();
+            Console.WriteLine("Products loaded in Product action: " + string.Join(", ", products.Select(p => p.Name)));
+            return View(products);
         }
+
     }
 }

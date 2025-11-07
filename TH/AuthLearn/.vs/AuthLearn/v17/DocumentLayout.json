@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\models\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\models\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|d:\\tailieu\\nam3\\hocky1\\laptrinhwebb\\th\\authlearn\\authlearn\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9273444B-F1F4-4663-8C77-5ED7E487DF80}|AuthLearn\\AuthLearn.csproj|solutionrelative:authlearn\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthLearn\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:16:53.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtToken.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Models\\JwtToken.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Models\\JwtToken.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Models\\JwtToken.cs",
+              "RelativeToolTip": "AuthLearn\\Models\\JwtToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:07:49.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Program.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Program.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Program.cs",
+              "RelativeToolTip": "AuthLearn\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:09:17.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AuthLearn\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:48:03.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AuthLearn\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwD8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:49:22.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthLearn\\Models\\User.cs",
+              "ToolTip": "D:\\TaiLieu\\Nam3\\HocKy1\\LapTrinhWebb\\TH\\AuthLearn\\AuthLearn\\Models\\User.cs",
+              "RelativeToolTip": "AuthLearn\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:48:22.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
