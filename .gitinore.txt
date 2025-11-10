@@ -23,3 +23,6 @@ obj/
 *.user
 *.suo
 *.vscode/
+
+# Visual Studio
+.vs/
