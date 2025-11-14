@@ -26,36 +26,30 @@
 <body class="is-preload">
 
     <!-- Wrapper -->
-    <div id="wrapper">
+   <div id="wrapper">
 
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
+    <!-- Main content mới dùng Bootstrap -->
+    <div id="main">
+        <div class="inner">
 
-                <!-- Header / Top Navigation -->
-                <partial name="TopNav" />
+            <partial name="TopNav" />
 
-                <!-- Content + Sidebar Layout -->
-                <div class="row">
-                    <!-- Sidebar - Bên trái -->
-                    <div class="col-lg-4">
-                        <partial name="Sidebar" />
-                    </div>
-
-                    <!-- Main Content - Ở giữa -->
-                    <div class="col-lg-8">
-                        @RenderBody()
-                    </div>
-                </div>
-
-                <!-- Footer - Dưới cùng -->
-                <partial name="Footer" />
-
+            <div class="container">
+                @RenderBody()
             </div>
-        </div>
-        <!-- End Main -->
 
+            <partial name="Footer" />
+
+        </div>
     </div>
+
+        <!-- Sidebar nằm ngoài Bootstrap -->
+        <div id="sidebar">
+            <partial name="Sidebar" />
+        </div>
+
+</div>
+
     <!-- End Wrapper -->
     <!-- Scripts -->
     <script src="~/vendor/jquery/jquery.min.js"></script>
@@ -69,3 +63,43 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

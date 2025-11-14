@@ -1157,7 +1157,6 @@ section.buttons .container-fluid {
 .featured-posts {
 	margin-top: 50px;
 	position: relative;
-	background-color: #1e1f25;
 	margin-left: -50px;
 	margin-right: -50px;
 	padding: 50px;
@@ -1166,7 +1165,7 @@ section.buttons .container-fluid {
 .featured-posts .heading h2 {
 	font-size: 19px;
 	color: #fff;
-	border-bottom: 1px solid #2d2e39;
+	border-bottom: none;
 	padding-bottom: 10px;
 	margin-bottom: 25px;
 }
@@ -1330,9 +1329,9 @@ section.buttons .container-fluid {
 }
 
 #menu > ul > li {
-    border-top: solid 1px #1a1b20;
     margin: 0.5em 0 0 0;
     padding: 0.5em 0 0 0;
+    border-top: 0;
 }
 
 #menu > ul > li > ul {
