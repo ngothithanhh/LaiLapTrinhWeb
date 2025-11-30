@@ -1,0 +1,34 @@
+﻿<div class="header">
+	<div class="header_top">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt="" /></a>
+		</div>
+		<div class="cart">
+			<p>
+				Welcome to our Online Store! <span>Cart:</span><div id="dd" class="wrapper-dropdown-2">
+					0 item(s) - $0.00
+					<ul class="dropdown">
+						<li>you have no items in your Shopping cart</li>
+					</ul>
+				</div>
+			</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="header_bottom">
+		<div class="menu">
+			<ul>
+				<li class="active"><a asp-controller="Home" asp-action="Index">Ngô Thị Thanh</a></li>
+                @await Component.InvokeAsync("LoaiHangHeader")
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="search_box">
+			<form onsubmit="return false;">
+				<input id="txtTimKiem" name="keyword" type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+				<input type="button" id="txtTimKiem" value="">
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>

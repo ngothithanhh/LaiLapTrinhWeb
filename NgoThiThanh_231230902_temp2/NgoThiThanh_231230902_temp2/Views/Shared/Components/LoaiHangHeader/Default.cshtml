@@ -1,0 +1,6 @@
+﻿@model IEnumerable<NgoThiThanh_231230902_temp2.Models.LoaiHang>
+
+@foreach(var item in Model)
+{
+    <li class="loaihang-item" data-maloai="@item.MaLoai"><a>@item.TenLoai</a></li>
+}
